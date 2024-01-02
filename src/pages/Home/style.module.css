@@ -1,0 +1,17 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-size: 10rem;
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 700;
+	color: #000;
+	background-color: #ffffff;
+}
+
+.link {
+	text-decoration: none;
+	color: #fff;
+}

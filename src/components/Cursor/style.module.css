@@ -1,0 +1,31 @@
+.cursor {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	border-radius: 1000px;
+	z-index: 9999;
+	mix-blend-mode: difference;
+	pointer-events: none;
+}
+
+.cursorActive {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	border-radius: 1000px;
+	z-index: 9999;
+	mix-blend-mode: difference;
+	pointer-events: none;
+}
+
+.cursorActive:before {
+	content: 'DISCOVER';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #000;
+	mix-blend-mode: none;
+}

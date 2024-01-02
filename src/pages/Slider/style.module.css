@@ -1,0 +1,39 @@
+.sliderContainer {
+	overflow: auto;
+	height: 100%;
+	width: 100%;
+	overscroll-behavior: none;
+}
+
+.scrollContainer {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	will-change: transform;
+	overflow-x: auto;
+}
+
+.ghost {
+	width: 100vw;
+}
+
+.thumbnailsContainer {
+	position: relative;
+	height: 100vh;
+	width: max-content;
+	display: flex;
+	align-items: center;
+	padding: 0px 200px;
+	background-color: #141414;
+	overflow-x: auto;
+}
+
+.images {
+	flex: 0 0 auto;
+	min-width: 500px;
+	max-height: 500px;
+	margin-right: 1rem;
+	object-fit: cover;
+	object-position: center;
+}

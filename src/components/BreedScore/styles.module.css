@@ -1,0 +1,10 @@
+.container {
+	display: flex;
+}
+.score {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #91c561;
+	margin-right: 2px;
+}
